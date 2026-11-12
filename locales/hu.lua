@@ -1,0 +1,36 @@
+Locales = Locales or {}
+Locales.hu = {
+    target_lock   = 'Jármű rögzítése',
+    target_unlock = 'Jármű felszabadítása',
+    target_raise  = 'Emelő felemelése',
+    target_lower  = 'Emelő leengedése',
+    target_delete = 'Emelő törlése',
+
+    locked        = 'A jármű rögzítve az emelőn.',
+    unlocked      = 'A jármű felszabadítva.',
+    raising       = 'Emelő felemelése...',
+    lowering      = 'Emelő leengedése...',
+
+    err_permission   = 'Nincs jogosultságod.',
+    err_job          = 'Csak szerelők használhatják az emelőt.',
+    err_too_far      = 'Túl messze vagy az emelőtől.',
+    err_cooldown     = 'Lassabban.',
+    err_busy         = 'Az emelő foglalt.',
+    err_not_found    = 'Az emelő nem található.',
+    err_wrong_state  = 'Az emelő nincs megfelelő állásban ehhez.',
+    err_no_vehicle   = 'Nincs jármű a platformon.',
+    err_occupied     = 'Valaki még a járműben ül.',
+    err_moving       = 'A járműnek állnia kell.',
+    err_in_use       = 'Ez a jármű már egy másik emelőn van.',
+    err_no_owner     = 'A jármű nem irányítható, próbáld újra.',
+    err_attach       = 'A jármű rögzítése sikertelen.',
+    err_not_locked   = 'Nincs rögzített jármű ezen az emelőn.',
+    err_person_under = 'Valaki a jármű alatt van!',
+    err_invalid      = 'Érvénytelen kérés.',
+    err_db           = 'Adatbázis hiba.',
+
+    placed        = 'A(z) %s. számú emelő lerakva.',
+    deleted       = 'Emelő törölve.',
+    place_cancel  = 'Lerakás megszakítva.',
+    place_help    = '[E] Lerak  |  [←/→] Forgatás (SHIFT: finom)  |  [Esc] Mégse',
+}

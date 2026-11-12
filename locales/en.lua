@@ -1,0 +1,36 @@
+Locales = Locales or {}
+Locales.en = {
+    target_lock   = 'Lock vehicle',
+    target_unlock = 'Unlock vehicle',
+    target_raise  = 'Raise lift',
+    target_lower  = 'Lower lift',
+    target_delete = 'Delete lift',
+
+    locked        = 'Vehicle locked onto the lift.',
+    unlocked      = 'Vehicle released.',
+    raising       = 'Raising the lift...',
+    lowering      = 'Lowering the lift...',
+
+    err_permission   = 'You do not have permission.',
+    err_job          = 'Only mechanics can use the lift.',
+    err_too_far      = 'You are too far from the lift.',
+    err_cooldown     = 'Slow down.',
+    err_busy         = 'The lift is busy.',
+    err_not_found    = 'Lift not found.',
+    err_wrong_state  = 'The lift is not in the right position for that.',
+    err_no_vehicle   = 'No vehicle on the platform.',
+    err_occupied     = 'Someone is still inside the vehicle.',
+    err_moving       = 'The vehicle must stand still.',
+    err_in_use       = 'This vehicle is already on another lift.',
+    err_no_owner     = 'The vehicle could not be controlled, try again.',
+    err_attach       = 'Locking the vehicle failed.',
+    err_not_locked   = 'No vehicle is locked on this lift.',
+    err_person_under = 'Someone is under the vehicle!',
+    err_invalid      = 'Invalid request.',
+    err_db           = 'Database error.',
+
+    placed        = 'Lift #%s placed.',
+    deleted       = 'Lift deleted.',
+    place_cancel  = 'Placement cancelled.',
+    place_help    = '[E] Place  |  [←/→] Rotate (hold SHIFT: fine)  |  [Esc] Cancel',
+}
